@@ -49,6 +49,6 @@ function getDefaultImages(images: string[], theme: Theme): string[] {
         return images;
     }
     return theme === 'light'
-    ? ['https://assets.zeit.co/image/upload/front/assets/design/zeit-black-triangle.svg']
+    ? ['https://github.com/hbg/og-image/blob/master/hbg.svg']
     : ['https://assets.zeit.co/image/upload/front/assets/design/zeit-white-triangle.svg'];
 }
